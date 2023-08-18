@@ -6,10 +6,12 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.fi
 
+require 'faker'
 
 5.times do
-    Character.create(
-      name: Faker::Movies::HarryPotter.character,
-      location: Faker::Movies::HarryPotter.location,
-      house: Faker::Movies::HarryPotter.house
-    )
+  Character.create(
+    name: Faker::Movies::HarryPotter.character,
+    location: Faker::Movies::HarryPotter.location,
+    house: Faker::Movies::HarryPotter.house
+  )
+end

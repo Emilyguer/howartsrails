@@ -1,9 +1,15 @@
-<h1>New character</h1>
+<div class="container">
+  <h1 class="page-title">Nuevo Personaje de Harry Potter</h1>
+  
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="new-character-form">
+        <%= render "characters/form", character: @character %>
 
-<%= render "form", character: @character %>
-
-<br>
-
-<div>
-  <%= link_to "Back to characters", characters_path %>
+        <div class="back-link">
+          <%= link_to "Volver a la lista de personajes", characters_path %>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

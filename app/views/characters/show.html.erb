@@ -1,10 +1,19 @@
-<p style="color: green"><%= notice %></p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="character-details">
+        <p class="notice"><%= notice %></p>
+        
+        <%= render @character %>
 
-<%= render @character %>
+        <div class="links">
+          <%= link_to "Edit this character", edit_character_path(@character), class: "edit-link" %>
+          <%= link_to "Back to characters", characters_path, class: "back-link" %>
 
-<div>
-  <%= link_to "Edit this character", edit_character_path(@character) %> |
-  <%= link_to "Back to characters", characters_path %>
-
-  <%= button_to "Destroy this character", @character, method: :delete %>
+          <%= button_to "Destroy this character", @character, method: :delete, class: "destroy-button", data: { confirm: "Are you sure?" } %>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+

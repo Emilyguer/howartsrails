@@ -13,3 +13,117 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .navbar {
+  background-color:black; 
+}
+
+.navbar-brand {
+  color: white; 
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left:30px;
+
+}
+
+.navbar-brand:hover {
+  background-color: #d3a625; 
+}
+
+.navbar-nav .nav-link {
+  color: white; 
+  font-size:2rem;
+}
+
+
+
+
+  h1 {
+    margin-top: 150Px;
+    font-size: 6rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-weight:700;
+    color:#ae0001;
+    
+  }
+  
+  .character-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size:2rem;
+    font-family: 'Caveat', cursive;
+    font-weight:700;
+  }
+  
+  /* Estilos para cada casa */
+  .gryffindor {
+    background-color: #ae0001;
+    color: #eeba30;
+  }
+  
+  .hufflepuff {
+    background-color: #ecb939;
+    color: #372e29;
+  }
+  
+  .ravenclaw {
+    background-color:#bebebe;
+    color: #0e1a40;
+  }
+  
+  .slytherin {
+    background-color: #2a623d;
+    color: #5d5d5d;
+  }
+
+  .wampus {
+    background-color: #d3a625;
+    color:#ae0001;
+  }
+
+  .pukwudgie {
+    background-color: #5d5d5d; 
+    color: white; 
+  }
+  
+ 
+  .horned.serpent {
+    background-color: #740001;
+    color:#f0c75e; 
+  }
+
+
+
+.button-style {
+  background-color:#1a472a; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: 'Caveat', cursive;
+}
+
+.button-style:hover {
+  background-color: #d3a625; 
+}
+
+
+.botton-new{
+  background-color:#1a472a; 
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2rem;
+  display: inline-block;
+  font-family: 'Caveat', cursive;
+}

@@ -1,17 +1,17 @@
-<div id="<%= dom_id character %>">
-  <p>
-    <strong>Name:</strong>
+<div class="character-details <%= character.house.downcase %>">
+  <p class="character-detail">
+    <strong class="detail-label">Name:</strong>
     <%= character.name %>
   </p>
 
-  <p>
-    <strong>Location:</strong>
+  <p class="character-detail">
+    <strong class="detail-label">Location:</strong>
     <%= character.location %>
   </p>
 
-  <p>
-    <strong>House:</strong>
+  <p class="character-detail">
+    <strong class="detail-label">House:</strong>
     <%= character.house %>
   </p>
-
 </div>
+

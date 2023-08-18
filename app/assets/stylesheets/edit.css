@@ -1,0 +1,36 @@
+.page-title {
+    text-align: center;
+    margin-top: 20px;
+    color: #2d3a63;
+    font-family: 'Caveat', cursive;
+  }
+  
+  .character-edit {
+    background-color:#ae0001;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ecb939;
+    font-size: 2rem;
+    margin-top: 150Px;
+  }
+  
+  .character-links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .character-link {
+    color: #ecb939;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .character-link:hover {
+    text-decoration: underline;
+  }
+  
